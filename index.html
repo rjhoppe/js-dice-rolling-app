@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ain't Got No Dice</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="dice-container"></div>
+  <select class="dice-total" name="Select Number of Dice" id="dice-selector">
+    <option class="option-val" value="1">1</option>
+    <option class="option-val" value="2">2</option>
+    <option class="option-val" value="3">3</option>
+    <option class="option-val" value="4">4</option>
+    <option class="option-val" value="5">5</option>
+    <option class="option-val" value="6" selected>6</option>
+  </select>
+  <button type="button" class="btn-roll-dice" onclick="createDice()">Roll Dice</button>
+</body>
+</html>
